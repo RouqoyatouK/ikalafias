@@ -1,0 +1,7 @@
+body{
+    background-image:"{{ url('public/img/carte-didentite-nationale.jpg')}}";
+
+}
+h1{
+color: red;
+}
