@@ -8,7 +8,14 @@ body {
 }
 
 .horloge{
+	
+	margin-top: 29px;
 	font-weight: bold;
+}
+#apropos{
+	
+	width: 400px;
+
 }
 
 [class*="text-color-hover-"] {

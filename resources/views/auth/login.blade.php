@@ -41,15 +41,12 @@
                     <div class="row mb-3">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
-                                    </label>
+                                    
                                 </div>
                             </div>
                         </div>
-                    <input type="submit" value="Login" class="btn solid" />
+                    <input type="submit" value="Se Connecter" class="btn solid" />
 
                     <div class="mgsoubli">
                     @if (Route::has('password.request'))
@@ -83,14 +80,15 @@
         <div class="panels-container">
             <div class="panel left-panel">
                 <div class="content">
-                    <h3>nouveau compte ?</h3>
+                    <h3>Nouveau compte ?</h3>
                     <p>
                         cliquez sur le boutton ci-dessous pour s'inscrire!
                     </p>
                     <!--button class="btn transparent" id="sign-up-btn"-->
-                        <p class="btn transparent" id="sign-up-btn">
-                        <a href="{{ route('register') }}">inscription</a>
-                        </p>
+                        <!--p class="btn transparent" id="sign-up-btn">
+                        </p-->
+                        <a href="{{route('register')}}">S'inscrire</a>
+
                         
                         
                     <!--/button-->

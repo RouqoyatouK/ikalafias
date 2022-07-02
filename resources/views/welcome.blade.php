@@ -21,9 +21,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
 	<!-- Web Fonts  -->
-	<link id="googleFonts"
-		href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CPlayfair+Display:400,700,900&display=swap"
-		rel="stylesheet" type="text/css">
+	<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CPlayfair+Display:400,700,900&display=swap" rel="stylesheet" type="text/css">
 
 	<!-- Vendor CSS -->
 	<link rel="stylesheet" href="vendorAcceuil/bootstrap/css/bootstrap.min.css">
@@ -57,71 +55,59 @@
 <body data-plugin-scroll-spy data-plugin-options="{'target': '#header'}">
 
 	<div class="body">
-		<header id="header" class="header-effect-shrink header-transparent"
-			data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
-			<div class="header-body header-body-bottom-border border-top-0 appear-animation"
-				data-appear-animation="fadeIn" data-appear-animation-delay="900">
+		<header id="header" class="header-effect-shrink header-transparent" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+			<div class="header-body header-body-bottom-border border-top-0 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="900">
 				<div class="header-container container">
 					<div class="header-row">
 						<div class="header-column">
 							<div class="header-row">
 								<div class="header-logo">
 									<a href="demo-startup-agency.html">
-										<img src="imgAcceuil/demos/startup-agency/ikalafia.png" class="img-fluid" width="123"
-											height="32" alt="" />
+										<img src="imgAcceuil/demos/startup-agency/ikalafia.png" class="img-fluid" width="123" height="32" alt="" />
 									</a>
 								</div>
 							</div>
 						</div>
 						<div class="header-column justify-content-end">
 							<div class="header-row">
-								<div
-									class="header-nav header-nav-line header-nav-bottom-line header-nav-bottom-line-effect-1">
-									<div
-										class="header-nav-main header-nav-main-text-capitalize header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+								<div class="header-nav header-nav-line header-nav-bottom-line header-nav-bottom-line-effect-1">
+									<div class="header-nav-main header-nav-main-text-capitalize header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
 										<nav class="collapse">
 											<ul class="nav nav-pills" id="mainNav">
-												<li><a href="#home" class="nav-link active" data-hash
-														data-hash-offset="0" data-hash-offset-lg="70">Acceuil</a></li>
-												<li><a href="{{ route('login') }}" class="nav-link" data-hash
-														data-hash-offset="0" data-hash-offset-lg="255">Connexion</a>
+												<li><a href="#home" class="nav-link active" data-hash data-hash-offset="0" data-hash-offset-lg="70">Acceuil</a></li>
+												<li><a href="{{ route('register') }}" class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="255">S'inscrire</a>
 												</li>
-												<li><a href="#aboutus" class="nav-link" data-hash data-hash-offset="0"
-														data-hash-offset-lg="35">Apropos de nous</a></li>
-												<li><a href="#team" class="nav-link" data-hash data-hash-offset="0"
-														data-hash-offset-lg="120">Pourquoi choisir Ikalafia?</a></li>
+												<li><a href="#aboutus" class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="35">Apropos de nous</a></li>
+												<li><a href="#team" class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="120">Pourquoi choisir Ikalafia?</a></li>
 												<!--li><a href="#pricing" class="nav-link" data-hash data-hash-offset="0"
 														data-hash-offset-lg="135">Pricing</a></li-->
 												<!--li><a href="#blog" class="nav-link" data-hash data-hash-offset="0"
 														data-hash-offset-lg="70">Blog</a></li-->
-												<li><a href="#footer" class="nav-link" data-hash data-hash-offset="0"
-														data-hash-offset-lg="70">Contact</a></li>
+												<li><a href="#footer" class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="70">Contact</a></li>
 											</ul>
 										</nav>
 									</div>
-									</div>
-									<div class="horloge">
-										<div class="heures">j</div>
-										<div class="date">k</div>
-									</div>
-									<!--a href="tel:+1234567890" class="font-weight-semibold text-color-dark text-color-hover-primary text-decoration-none custom-font-size-2 ps-1 ms-lg-3 ms-xl-4">(800) 123-4567</a-->
-									<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse"
-										data-bs-target=".header-nav-main nav">
-										<i class="fas fa-bars"></i>
-									</button>
 								</div>
+								<div class="horloge">
+									<div class="heures">j</div>
+									<div class="date">k</div>
+								</div>
+								<!--a href="tel:+1234567890" class="font-weight-semibold text-color-dark text-color-hover-primary text-decoration-none custom-font-size-2 ps-1 ms-lg-3 ms-xl-4">(800) 123-4567</a-->
+								<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
+									<i class="fas fa-bars"></i>
+								</button>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 		</header>
 
 		<div role="main" class="main">
 
 			<section id="home" class="section section-with-shape-divider custom-bg-color-1 border-0 pt-0 m-0">
 				<div class="shape-divider shape-divider-bottom" style="height: 243px;">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 2000 245"
-						preserveAspectRatio="xMinYMin">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 2000 245" preserveAspectRatio="xMinYMin">
 						<path fill="#FFF" opacity="0.5" d="M2028.47,246.15v-39.09C1945.6,199.68,1869.96,195.8,1803,194c-71.99-1.93-137.53-4.37-225,1
 								c-88.04,5.4-120.19,13.36-233,19c-55.14,2.76-102.19,5-165,3c-37.5-1.2-102.55-4.6-200-19c-89.42-13.21-145.61-26.73-276-57
 								C520.19,98.33,428.29,76.99,402,72C243.75,41.93,118.41,28.67,37,22c-26.77-2.19-49.49-3.73-66.33-4.77v229.03h2057.82
@@ -133,31 +119,24 @@
 					</svg>
 				</div>
 				<div class="custom-section-svg pt-5 pb-5 pb-md-0 mb-5 mb-md-0">
-					<div class="custom-section-svg-background appear-animation" data-appear-animation="fadeIn"
-						data-appear-animation-delay="2300"
-						style="background-image: url(imgAcceuil/demos/startup-agency/backgrounds/morphing-bg-1.jpg); background-size: cover; background-position: center;">
+					<div class="custom-section-svg-background appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="2300" style="background-image: url(imgAcceuil/demos/startup-agency/backgrounds/morphing-bg-1.jpg); background-size: cover; background-position: center;">
 					</div>
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-						x="0px" y="0px" viewBox="0 0 2000 935" xml:space="preserve" data-appear-animation-svg="true"
-						data-plugin-float-element-svg="true">
-						
-						<!--linearGradient id="gradient_SVG_1_" class="custom-svg-linear-gradient"
-							gradientUnits="userSpaceOnUse" x1="1608.6167" y1="668.754" x2="1197.4358" y2="257.5732">
-							<stop offset="3.745963e-03" style="stop-color:#5349FF" />
-							<stop offset="1" style="stop-color:#0088CC" />
-						</linearGradient-->
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2000 935" xml:space="preserve" data-appear-animation-svg="true" data-plugin-float-element-svg="true">
 
-						<!--linearGradient id="gradient_SVG_2_" class="custom-svg-linear-gradient"
-							gradientUnits="userSpaceOnUse" x1="1621.6152" y1="666.8627" x2="1207.4606" y2="252.708">
+						<linearGradient id="gradient_SVG_1_" class="custom-svg-linear-gradient" gradientUnits="userSpaceOnUse" x1="1608.6167" y1="668.754" x2="1197.4358" y2="257.5732">
 							<stop offset="3.745963e-03" style="stop-color:#5349FF" />
 							<stop offset="1" style="stop-color:#0088CC" />
-						</linearGradient-->
+						</linearGradient>
 
-						<!--linearGradient id="gradient_SVG_3_" class="custom-svg-linear-gradient"
-							gradientUnits="userSpaceOnUse" x1="1557.4893" y1="663.6315" x2="1192.9751" y2="299.1174">
+						<linearGradient id="gradient_SVG_2_" class="custom-svg-linear-gradient" gradientUnits="userSpaceOnUse" x1="1621.6152" y1="666.8627" x2="1207.4606" y2="252.708">
 							<stop offset="3.745963e-03" style="stop-color:#5349FF" />
 							<stop offset="1" style="stop-color:#0088CC" />
-						</linearGradient-->
+						</linearGradient>
+
+						<linearGradient id="gradient_SVG_3_" class="custom-svg-linear-gradient" gradientUnits="userSpaceOnUse" x1="1557.4893" y1="663.6315" x2="1192.9751" y2="299.1174">
+							<stop offset="3.745963e-03" style="stop-color:#5349FF" />
+							<stop offset="1" style="stop-color:#0088CC" />
+						</linearGradient>
 						<g>
 							<g>
 								<!-- Start -->
@@ -168,22 +147,19 @@
 								<!-- End -->
 								<path id="st0_end" fill="#EFF1F3" d="M1642,423.5c9.3,66.75-12.25,127.31-21,129c9.59,29.36-56.22,260.83-305,200
 										c-324.35-79.31-237.27-195.4-232-223.26c0,0-1.72-21.98,7-57.74c0,0,16.97-79.91,153-161s257.67-66.4,257.67-66.4
-										c23.05-7.68,166.63-57.11,138.33,109.4c-6.22,36.59,6.91,63.11,2.46,85.9H2018V-0.5H-25v935h2043v-511H1642z"
-									style="visibility: hidden;" />
+										c23.05-7.68,166.63-57.11,138.33,109.4c-6.22,36.59,6.91,63.11,2.46,85.9H2018V-0.5H-25v935h2043v-511H1642z" style="visibility: hidden;" />
 							</g>
 						</g>
 						<g>
 							<!-- Start -->
-							<g class="appear-animation" fill="url(#gradient_SVG_3_)"
-								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500">
+							<g class="appear-animation" fill="url(#gradient_SVG_3_)" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500">
 								<g opacity="0.2">
 									<path id="st1_start" d="M1679,417.5c0,0,0-190-210-282c-177.63-77.82-272.97,156.29-298.15,230.32c19.25-16.7,43.09-34.25,72.59-51.83
 											c136.03-81.09,257.23-68.89,257.23-68.89s77.61-10.46,123.82,108.12s-16.57,198.81-16.57,198.81S1535.12,694.08,1318,718.5
 											c-41.7,4.69-77.69-0.59-106-10c53.85,55.08,154.68,120.29,280,56C1685,665.5,1679,417.5,1679,417.5z" />
 								</g>
 							</g>
-							<g class="appear-animation" fill="url(#gradient_SVG_2_)"
-								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1700">
+							<g class="appear-animation" fill="url(#gradient_SVG_2_)" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1700">
 								<g opacity="0.5">
 									<path id="st2_start" d="M1594,207.5c-213.29-96.1-368.83,26.65-427.9,86.58c-17.02,17.27-31.29,37.04-42.43,58.57
 											C1044.11,506.47,1100,600.5,1100,600.5s0.47,1.17,1.58,3.29c0.67,1.27,2.57,0.32,1.98-0.98c-17.26-38.06-20.44-71.25-20.56-72.54
@@ -194,8 +170,7 @@
 											c53.53-16.59,98.13-54,124.26-103.57C1719.67,508.01,1797.72,299.29,1594,207.5z" />
 								</g>
 							</g>
-							<g class="appear-animation" fill="url(#gradient_SVG_1_)"
-								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1900">
+							<g class="appear-animation" fill="url(#gradient_SVG_1_)" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1900">
 								<path id="st3_start" d="M1665,334.5c-45.71-117.3-115-122-137.28-124.26c-3.67-0.37-7.37,0.02-11.05-0.16
 										c-28.83-1.41-152.25-1.91-288.67,79.42c-156,93-174,185-174,185c-0.89,3.67-1.71,7.18-2.45,10.54c-7.21,32.69-6.42,66.6,2.4,98.74
 										h41.91c-2.45-6.83-4.46-13.32-6.08-19.26c-6-21.92-6.92-44.93-2.79-67.27c1.19-6.42,2.73-13.75,4.73-21.94
@@ -212,8 +187,7 @@
 									c19.25-16.7,43.09-34.25,72.59-51.83c136.03-81.09,257.23-68.89,257.23-68.89c22.57-3.36,175.75-42.15,148.33,107.4
 									c-21.09,114.99,14.61,207.14-26,208c-7.12,36.19-72.31,261.51-279,182c-39.16-15.07-101.62-26.65-129.93-36.07
 									c143.83,97.85,222.48,64.02,274.93,79.07C1723.19,852.69,1679,417.5,1679,417.5z" style="visibility: hidden;" />
-							<path id="st2_end" fill="url(#gradient_SVG_2_)" opacity="0.5"
-								d="M1594,207.5c-222.99,2.57-368.83,26.65-427.9,86.58c-17.02,17.27-31.29,37.04-42.43,58.57
+							<path id="st2_end" fill="url(#gradient_SVG_2_)" opacity="0.5" d="M1594,207.5c-222.99,2.57-368.83,26.65-427.9,86.58c-17.02,17.27-31.29,37.04-42.43,58.57
 									C1044.11,506.47,1100,600.5,1100,600.5s0.47,1.17,1.58,3.29c0.67,1.27,2.57,0.32,1.98-0.98c-17.26-38.06-20.44-71.25-20.56-72.54
 									c0-0.03,0-0.05,0-0.08c0.01-1.01,0.24-20.11,8.72-54.89c0,0,15.7-80.22,151.72-161.31c134.11-79.95,253.81-69.21,257.16-68.89
 									c0.05,0.01,0.09,0,0.14,0c29.13-2.05,189.7-51.48,142.26,106.41c-31.91,106.21,23.18,203.99-21,204c-0.04,0-3,4.96-3,5
@@ -230,58 +204,39 @@
 									c28.54,67.53,85.29,90.05,222.34,162.43c178,94,303.08-120.67,319-147c1.74-2.88,31-46,45-72C1663.82,533.69,1642,462.5,1676,334.5
 									z" style="visibility: hidden;" />
 						</g>
-						<g class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="1500"
-							data-appear-animation-duration="2s">
+						<g class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="1500" data-appear-animation-duration="2s">
 							<circle fill="#DFDFDB" cx="128.5" cy="446" r="11.5" />
 
-							<g data-plugin-float-element
-								data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-								<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="1051" cy="367.5"
-									r="33" />
+							<g data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+								<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="1051" cy="367.5" r="33" />
 								<circle fill="#EFF1F3" cx="1051.61" cy="368.11" r="29.94" />
 							</g>
 
-							<g data-plugin-float-element
-								data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-								<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="1615" cy="734.5"
-									r="17" />
+							<g data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+								<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="1615" cy="734.5" r="17" />
 								<circle fill="#EFF1F3" cx="1615.31" cy="734.81" r="15.43" />
 							</g>
-							<circle fill="#DFDFDB" cx="635.5" cy="519" r="6.5" data-plugin-float-element
-								data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}" />
+							<circle fill="#DFDFDB" cx="635.5" cy="519" r="6.5" data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}" />
 
-							<circle fill="#DFDFDB" cx="647.5" cy="183" r="10.5" data-plugin-float-element
-								data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}" />
+							<circle fill="#DFDFDB" cx="647.5" cy="183" r="10.5" data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}" />
 
-							<g data-plugin-float-element
-								data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-								<circle class="custom-svg-fill-color-primary" fill="#0088CC" cx="1638" cy="163.5"
-									r="23" />
+							<g data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+								<circle class="custom-svg-fill-color-primary" fill="#0088CC" cx="1638" cy="163.5" r="23" />
 								<circle fill="#EFF1F3" cx="1638.43" cy="163.93" r="20.87" />
 							</g>
 						</g>
-						<g class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="1800"
-							data-appear-animation-duration="2s">
-							<g data-plugin-float-element
-								data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-								<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="264" cy="303.5"
-									r="27" />
+						<g class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="1800" data-appear-animation-duration="2s">
+							<g data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+								<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="264" cy="303.5" r="27" />
 								<circle fill="#EFF1F3" cx="264.5" cy="304" r="24.5" />
 							</g>
-							<g data-plugin-float-element
-								data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-								<circle class="custom-svg-fill-color-primary" fill="#0088CC" cx="857" cy="644.5"
-									r="17" />
+							<g data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+								<circle class="custom-svg-fill-color-primary" fill="#0088CC" cx="857" cy="644.5" r="17" />
 								<circle fill="#EFF1F3" cx="857.31" cy="644.81" r="15.43" />
 							</g>
-							<circle fill="#DFDFDB" cx="958.5" cy="427" r="10.5" data-plugin-float-element
-								data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}" />
-							<circle class="custom-svg-fill-color-secondary" fill="#908DFA" cx="1576" cy="762.5" r="14"
-								data-plugin-float-element
-								data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}" />
-							<circle class="custom-svg-fill-color-secondary" fill="#908DFA" cx="1139" cy="216.5" r="8"
-								data-plugin-float-element
-								data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}" />
+							<circle fill="#DFDFDB" cx="958.5" cy="427" r="10.5" data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}" />
+							<circle class="custom-svg-fill-color-secondary" fill="#908DFA" cx="1576" cy="762.5" r="14" data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}" />
+							<circle class="custom-svg-fill-color-secondary" fill="#908DFA" cx="1139" cy="216.5" r="8" data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}" />
 						</g>
 					</svg>
 					<!--div class="respons">
@@ -290,18 +245,12 @@
 					<div class="container mt-5 pt-5">
 						<div class="row align-items-center pt-5 mt-5 mt-lg-0 pt-lg-0">
 							<div class="col-lg-6">
-								<h1 class="font-weight-bold text-12 mb-2 appear-animation"
-									data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Aw
+								<h1 class="font-weight-bold text-12 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Aw
 									Bissmilah</h1>
-								<h2 class="font-weight-medium text-9 mb-3 pb-1 appear-animation"
-									data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Bienvenue
+								<h2 class="font-weight-medium text-9 mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Bienvenue
 									sur le site ikalafia</h2>
-								<p class="custom-font-secondary custom-font-size-1 mb-4 pb-2 appear-animation"
-									data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600"></p>
-								<a href="{{ route('register') }}"
-									class="btn btn-gradient text-3 font-weight-bold px-5 py-3 appear-animation"
-									data-appear-animation="fadeInUpShorter"
-									data-appear-animation-delay="1800">Inscription</a>
+								<p class="custom-font-secondary custom-font-size-1 mb-4 pb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600"></p>
+								<a href="{{ route('login') }}" class="btn btn-gradient text-3 font-weight-bold px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1800">Se Connecter</a>
 							</div>
 						</div>
 					</div>
@@ -313,37 +262,25 @@
 				<div id="aboutus" class="row align-items-center pt-4 pb-lg-5 my-5" data-spy-offset="15">
 					<div class="col-lg-6 pb-sm-5 pb-lg-0 mb-5 mb-lg-0">
 						<div class="custom-svg-wrapper-1 px-5">
-							<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 687 673"
-								data-plugin-float-element-svg="true">
-								<g class="d-none d-md-block" data-plugin-float-element
-									data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-									<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="589" cy="216"
-										r="27" />
+							<!--svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 687 673" data-plugin-float-element-svg="true">
+								<g class="d-none d-md-block" data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+									<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="589" cy="216" r="27" />
 									<circle fill="#FFF" fill="#FFFFFF" cx="588.5" cy="216.5" r="24.5" />
 								</g>
-								<g class="d-none d-lg-block" data-plugin-float-element
-									data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-									<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="128" cy="609"
-										r="17" />
+								<g class="d-none d-lg-block" data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+									<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="128" cy="609" r="17" />
 									<circle fill="#FFF" cx="127.69" cy="609.31" r="15.43" />
 								</g>
-								<g opacity="0.7" data-plugin-float-element
-									data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-									<circle class="custom-svg-fill-color-primary" fill="#0088CC" cx="148" cy="64.5"
-										r="14.5" />
+								<g opacity="0.7" data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+									<circle class="custom-svg-fill-color-primary" fill="#0088CC" cx="148" cy="64.5" r="14.5" />
 									<circle fill="#FFF" cx="148.27" cy="64.77" r="13.16" />
 								</g>
-								<linearGradient id="SVGID_1_" class="custom-svg-linear-gradient"
-									gradientUnits="userSpaceOnUse" x1="507.8588" y1="461.6467" x2="171.5928"
-									y2="125.3807">
+								<linearGradient id="SVGID_1_" class="custom-svg-linear-gradient" gradientUnits="userSpaceOnUse" x1="507.8588" y1="461.6467" x2="171.5928" y2="125.3807">
 									<stop offset="0" style="stop-color:#5349FF" />
 									<stop offset="1" style="stop-color:#0088CC" />
 								</linearGradient>
-								<g class="appear-animation" data-appear-animation="fadeInUpShorter"
-									data-appear-animation-delay="700">
-									<g data-plugin-float-element
-										data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+								<g class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
+									<g data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 										<path fill="url(#SVGID_1_)" opacity="0.2" d="M252,64c26.24-11.75,48.83-15.22,67-18c14.48-2.22,21.72-3.33,32-3c9.04,0.29,37.99,1.59,66,21
 												c9.9,6.86,16.05,13.46,24,22c4.57,4.91,15.33,16.93,30,41c5.64,9.25,18.4,31.03,31,62c12.24,30.1,18.27,53.97,22,69
 												c7.74,31.18,12.66,51,13,79c0.36,29.73-4.65,52.49-7,62c-4.51,18.26-9.8,39.64-25,62c-21.92,32.23-51.17,46.98-77,60
@@ -352,16 +289,12 @@
 												C215.85,80.47,239.52,69.59,252,64z" />
 									</g>
 								</g>
-								<linearGradient id="SVGID_2_" class="custom-svg-linear-gradient"
-									gradientUnits="userSpaceOnUse" x1="492.229" y1="463.2329" x2="145.1594"
-									y2="116.1633">
+								<linearGradient id="SVGID_2_" class="custom-svg-linear-gradient" gradientUnits="userSpaceOnUse" x1="492.229" y1="463.2329" x2="145.1594" y2="116.1633">
 									<stop offset="0" style="stop-color:#5349FF" />
 									<stop offset="1" style="stop-color:#0088CC" />
 								</linearGradient>
-								<g class="appear-animation" data-appear-animation="fadeInUpShorter"
-									data-appear-animation-delay="900">
-									<g data-plugin-float-element
-										data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+								<g class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
+									<g data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 										<path fill="url(#SVGID_2_)" opacity="0.5" d="M111,154c25.18-37.35,61.01-52.15,80-60c33.83-13.98,62.35-15.1,85-16c49.05-1.94,87.48,8.19,106,14
 												c26.65,8.35,77.28,24.9,122,72c13.61,14.34,44.32,47.47,58,100c6.27,24.07,5.51,48.05,4,96c-0.2,6.4-0.68,16.99-6,29
 												c-5.8,13.09-14.47,21.33-21,27c-37.42,32.48-75,48-75,48c-50.83,20.99-94.45,24.86-121,27c-40.5,3.27-78.77,5.96-122-10
@@ -369,55 +302,38 @@
 												C86.73,219.43,88.95,186.71,111,154z" />
 									</g>
 								</g>
-								<g data-plugin-float-element
-									data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-									<circle class="custom-svg-fill-color-secondary" fill="#5349FF" cx="523" cy="103"
-										r="6" />
+								<g data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+									<circle class="custom-svg-fill-color-secondary" fill="#5349FF" cx="523" cy="103" r="6" />
 								</g>
-								<g data-plugin-float-element
-									data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+								<g data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 									<circle fill="#DFDFDB" cx="195.5" cy="519.5" r="11.5" />
 								</g>
-							</svg>
-							<div data-plugin-float-element
-								data-plugin-options="{'startPos': 'top', 'speed': 0.1, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-								<img src="imgAcceuil/demos/startup-agency/about-us-1.png"
-									class="img-fluid position-relative z-index-1 appear-animation"
-									data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100" alt="" />
+							</svg-->
+							<div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.1, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+								<img src="imgAcceuil/demos/startup-agency/about-us-1.png" id="apropos" class="img-fluid position-relative z-index-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100" alt="" />
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-6">
-						<span
-							class="text-color-grey positive-ls-2 font-weight-medium custom-font-size-2 appear-animation"
-							data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">A Propos De
+						<span class="text-color-grey positive-ls-2 font-weight-medium custom-font-size-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">A Propos De
 							Nous</span>
-						<h2 class="font-weight-bold text-10 appear-animation" data-appear-animation="fadeInUpShorter"
-							data-appear-animation-delay="400">Qu'est ce que Ikalafia ? </h2>
-						<p class="custom-font-secondary custom-font-size-1 line-height-6 mb-4 pb-2 pe-lg-5 appear-animation"
-							data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Ikalafia est un
+						<h2 class="font-weight-bold text-10 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Qu'est ce que Ikalafia ? </h2>
+						<p class="custom-font-secondary custom-font-size-1 line-height-6 mb-4 pb-2 pe-lg-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Ikalafia est un
 							service digital mis en place pour vous faciliter la vie .</p>
-						<p class="custom-font-size-2 font-weight-light pb-2 mb-4 appear-animation"
-							data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">Avec IKALAFIA
+						<p class="custom-font-size-2 font-weight-light pb-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">Avec IKALAFIA
 							faite en toute simpliciter votre pré demande, renouvellement, et declaration de perte de
 							votre carte d'identité en ligne.</p>
-						<a href="#footer" data-hash data-hash-offset="0" data-hash-offset-lg="70"
-							class="btn btn-gradient text-3 font-weight-bold px-5 py-3 appear-animation"
-							data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">Contact Us</a>
+						<a href="#footer" data-hash data-hash-offset="0" data-hash-offset-lg="70" class="btn btn-gradient text-3 font-weight-bold px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">Contact Us</a>
 					</div>
 				</div>
 			</div>
 
 			<section id="team" class="section section-with-shape-divider custom-bg-color-1 border-0 m-0">
 				<div class="shape-divider" style="height: 385px;">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-						x="0px" y="0px" viewBox="0 0 2000 385" preserveAspectRatio="xMinYMin">
-						<circle class="custom-svg-fill-color-secondary" fill="#9DA3F6" opacity="0.2" cx="57" cy="181"
-							r="161" />
-						<circle class="custom-svg-fill-color-secondary" fill="#5349FF" opacity="0.3" cx="75.5"
-							cy="158.5" r="169.5" />
-						<path fill="#FFFFFF" opacity="0.5"
-							d="M-35,226c17.66,1.2,43.63,2.44,75,2c83.48-1.18,144.86-13.49,188-22c224.54-44.3,165.12-27.27,310-59
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2000 385" preserveAspectRatio="xMinYMin">
+						<circle class="custom-svg-fill-color-secondary" fill="#9DA3F6" opacity="0.2" cx="57" cy="181" r="161" />
+						<circle class="custom-svg-fill-color-secondary" fill="#5349FF" opacity="0.3" cx="75.5" cy="158.5" r="169.5" />
+						<path fill="#FFFFFF" opacity="0.5" d="M-35,226c17.66,1.2,43.63,2.44,75,2c83.48-1.18,144.86-13.49,188-22c224.54-44.3,165.12-27.27,310-59
 								c133.16-29.16,128.14-31.45,223-52c206.26-44.68,317.22-68.72,460-68c97.61,0.49,73.58,11.86,293,25c164.22,9.83,250.54,7.83,279,7
 								c102.76-2.99,187.96-12.01,248-20c0-24.69,0-49.37,0-74.06c-694.67,0-1389.33,0-2084,0C-40.33,51.96-37.67,138.98-35,226z" />
 						<path fill="#FFFFFF" d="M-37,185c17.21,1.44,42.06,3.17,72,4c81.96,2.26,170.2-3.07,325-30c54.07-9.4,98.99-18.41,221-45
@@ -429,63 +345,43 @@
 				<div class="container position-relative z-index-3 pt-md-5 pb-1 pb-sm-5 my-5">
 					<div class="row justify-content-center pt-5">
 						<div class="col-lg-10 text-center">
-							<span
-								class="text-color-grey positive-ls-2 font-weight-medium custom-font-size-2 d-block mb-1 appear-animation"
-								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">OUR
-								TEAM</span>
-							<h2 class="font-weight-bold text-10 mb-4 appear-animation"
-								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">We Are
-								Passionate</h2>
-							<p class="custom-font-size-2 font-weight-light appear-animation"
-								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Vestibulum
-								auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan
-								libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus vitae dui.
+							<span class="text-color-grey positive-ls-2 font-weight-medium custom-font-size-2 d-block mb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200"></span>
+							<h2 class="font-weight-bold text-10 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Pourquoi choisir IKALAFIA</h2>
+							<p class="custom-font-size-2 font-weight-light appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
 							</p>
 						</div>
 					</div>
 					<div class="row mb-5 mb-lg-0">
 						<div class="col">
 							<div class="custom-svg-wrapper-2">
-								<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-									xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1736 315"
-									data-plugin-float-element-svg="true">
-									<g data-plugin-float-element
-										data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1736 315" data-plugin-float-element-svg="true">
+									<g data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 										<circle fill="#DFDFDB" cx="145.5" cy="31.5" r="9.5" />
 									</g>
-									<g data-plugin-float-element
-										data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-										<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="75" cy="128"
-											r="17" />
+									<g data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+										<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="75" cy="128" r="17" />
 										<circle fill="#eff1f3" cx="74.69" cy="128.31" r="15.43" />
 									</g>
-									<g data-plugin-float-element
-										data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-										<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="1693"
-											cy="201.5" r="17" />
+									<g data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+										<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="1693" cy="201.5" r="17" />
 										<circle fill="#eff1f3" cx="1693.31" cy="201.81" r="15.43" />
 									</g>
-									<g data-plugin-float-element
-										data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+									<g data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 										<circle fill="#DFDFDB" cx="1620.5" cy="295.5" r="9.5" />
 									</g>
 								</svg>
-								<div class="appear-animation" data-appear-animation="fadeInUpShorter"
-									data-appear-animation-delay="800">
-									<div class="owl-carousel custom-dots-style-1"
-										data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 2}, '768': {'items': 3}, '992': {'items': 3}, '1200': {'items': 4}}, 'autoplay': false, 'autoplayTimeout': 5000, 'autoplayHoverPause': true, 'dots': true, 'nav': false, 'loop': true, 'margin': 30, 'stagePadding': 15}">
+								<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">
+									<div class="owl-carousel custom-dots-style-1" data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 2}, '768': {'items': 3}, '992': {'items': 3}, '1200': {'items': 4}}, 'autoplay': false, 'autoplayTimeout': 5000, 'autoplayHoverPause': true, 'dots': true, 'nav': false, 'loop': true, 'margin': 30, 'stagePadding': 15}">
 										<div>
 											<a href="#" class="text-decoration-none">
 												<div class="card custom-card-style-1 box-shadow-4 my-3">
 													<div class="card-body p-3">
 														<div class="thumb-info thumb-info-hide-wrapper-bg mb-3 pb-2">
 															<div class="thumb-info-wrapper">
-																<img src="imgAcceuil/demos/startup-agency/authors/facile.png"
-																	class="img-fluid" alt="John Doe" />
+																<img src="imgAcceuil/demos/startup-agency/authors/facile.png" class="img-fluid" alt="John Doe" />
 															</div>
 														</div>
-														<h3
-															class="text-center font-weight-bold text-capitalize line-height-1 text-5 text-color-hover-primary mb-0">
+														<h3 class="text-center font-weight-bold text-capitalize line-height-1 text-5 text-color-hover-primary mb-0">
 															plus de facilité</h3>
 														<p class="text-center text-color-grey text-3 mb-2">
 														</p>
@@ -499,13 +395,11 @@
 													<div class="card-body p-3">
 														<div class="thumb-info thumb-info-hide-wrapper-bg mb-3 pb-2">
 															<div class="thumb-info-wrapper">
-																<img src="imgAcceuil/demos/startup-agency/authors/responive.png"
-																	class="img-fluid" alt="John Doe" />
+																<img src="imgAcceuil/demos/startup-agency/authors/responive.png" class="img-fluid" alt="John Doe" />
 															</div>
 														</div>
-														<h3
-															class="text-center font-weight-bold text-capitalize line-height-1 text-5 text-color-hover-primary mb-0">
-															</h3>
+														<h3 class="text-center font-weight-bold text-capitalize line-height-1 text-5 text-color-hover-primary mb-0">
+														</h3>
 														<p class="text-center text-color-grey text-3 mb-2">
 														</p>
 													</div>
@@ -518,13 +412,11 @@
 													<div class="card-body p-3">
 														<div class="thumb-info thumb-info-hide-wrapper-bg mb-3 pb-2">
 															<div class="thumb-info-wrapper">
-																<img src="imgAcceuil/demos/startup-agency/authors/fiables.png"
-																	class="img-fluid" alt="John Doe" />
+																<img src="imgAcceuil/demos/startup-agency/authors/fiables.png" class="img-fluid" alt="John Doe" />
 															</div>
 														</div>
-														<h3
-															class="text-center font-weight-bold text-capitalize line-height-1 text-5 text-color-hover-primary mb-0">
-															</h3>
+														<h3 class="text-center font-weight-bold text-capitalize line-height-1 text-5 text-color-hover-primary mb-0">
+														</h3>
 														<p class="text-center text-color-grey text-3 mb-2">
 														</p>
 													</div>
@@ -537,12 +429,10 @@
 													<div class="card-body p-3">
 														<div class="thumb-info thumb-info-hide-wrapper-bg mb-3 pb-2">
 															<div class="thumb-info-wrapper">
-																<img src="imgAcceuil/demos/startup-agency/authors/author-1.jpg"
-																	class="img-fluid" alt="John Doe" />
+																<img src="imgAcceuil/demos/startup-agency/authors/author-1.jpg" class="img-fluid" alt="John Doe" />
 															</div>
 														</div>
-														<h3
-															class="text-center font-weight-bold text-capitalize line-height-1 text-5 text-color-hover-primary mb-0">
+														<h3 class="text-center font-weight-bold text-capitalize line-height-1 text-5 text-color-hover-primary mb-0">
 															John Doe</h3>
 														<p class="text-center text-color-grey text-3 mb-2">CEO & Founder
 														</p>
@@ -556,12 +446,10 @@
 													<div class="card-body p-3">
 														<div class="thumb-info thumb-info-hide-wrapper-bg mb-3 pb-2">
 															<div class="thumb-info-wrapper">
-																<img src="imgAcceuil/demos/startup-agency/authors/author-2.jpg"
-																	class="img-fluid" alt="John Doe" />
+																<img src="imgAcceuil/demos/startup-agency/authors/author-2.jpg" class="img-fluid" alt="John Doe" />
 															</div>
 														</div>
-														<h3
-															class="text-center font-weight-bold text-capitalize line-height-1 text-5 text-color-hover-primary mb-0">
+														<h3 class="text-center font-weight-bold text-capitalize line-height-1 text-5 text-color-hover-primary mb-0">
 															John Doe</h3>
 														<p class="text-center text-color-grey text-3 mb-2">CEO & Founder
 														</p>
@@ -576,17 +464,13 @@
 					</div>
 				</div>
 				<div class="shape-divider shape-divider-bottom z-index-0" style="height: 260px;">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-						x="0px" y="0px" viewBox="0 0 2000 260" preserveAspectRatio="xMinYMin">
-						<circle class="custom-svg-fill-color-secondary" fill="#504BFD" opacity="0.2" cx="2007.7"
-							cy="208.3" r="140.7" />
-						<circle class="custom-svg-fill-color-secondary" fill="#5349FF" opacity="0.2" cx="1975.78"
-							cy="247.18" r="148.13" />
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2000 260" preserveAspectRatio="xMinYMin">
+						<circle class="custom-svg-fill-color-secondary" fill="#504BFD" opacity="0.2" cx="2007.7" cy="208.3" r="140.7" />
+						<circle class="custom-svg-fill-color-secondary" fill="#5349FF" opacity="0.2" cx="1975.78" cy="247.18" r="148.13" />
 						<path fill="#FFFFFF" d="M-42,42c21.03-0.71,49.03-1.3,82-1c10.06,0.09,73,0.78,147,7c95.4,8.01,191.25,23.7,278,40
 								c188.62,35.43,247.14,57.2,353,79c102.08,21.02,252.74,44.36,445,46c0,22.68,0,45.35,0,68.03c-433.33,0-866.67,0-1300,0
 								C-38.67,201.35-40.33,121.68-42,42z" />
-						<path class="custom-svg-fill-color-secondary" fill="#504BFD"
-							d="M-39,233c18.45-5.57,45.76-13.68,79-23c65.89-18.48,100.28-28.12,140-36c64.67-12.83,115.09-15.35,151-17
+						<path class="custom-svg-fill-color-secondary" fill="#504BFD" d="M-39,233c18.45-5.57,45.76-13.68,79-23c65.89-18.48,100.28-28.12,140-36c64.67-12.83,115.09-15.35,151-17
 								c72.37-3.33,126.81,0.97,200,7c21.78,1.79,35.05,3.15,147,16c185.79,21.33,205.66,24.08,252,27c85.5,5.38,150.46,4.35,168,4
 								c48.7-0.96,73.47-3.33,246-19c174.43-15.84,185.89-16.75,211-18c76.46-3.81,133.48-3.48,217-3c83.26,0.48,125.58,2.59,166,6
 								c37.33,3.15,68.3,7,90,10c0,28.67,0,57.35,0,86.02c-688.33,0-1376.67,0-2065,0C-37.67,259.68-38.33,246.34-39,233z" />
@@ -594,12 +478,11 @@
 				</div>
 			</section>
 
-			<section id="works" class="section section-with-shape-divider bg-secondary border-0 m-0">
+			<!--section id="works" class="section section-with-shape-divider bg-secondary border-0 m-0">
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-lg-10 text-center">
-							<span
-								class="d-block text-color-grey positive-ls-2 font-weight-normal custom-font-size-2 text-color-light opacity-6 mb-1">OUR
+							<span class="d-block text-color-grey positive-ls-2 font-weight-normal custom-font-size-2 text-color-light opacity-6 mb-1">OUR
 								WORK</span>
 							<h2 class="font-weight-bold text-color-light text-10 mb-4">Love What We Do</h2>
 							<p class="custom-font-size-2 font-weight-light text-color-light mb-4 pb-3">Vestibulum auctor
@@ -611,59 +494,48 @@
 				<div class="container-fluid px-0 pb-5 mb-5">
 					<div class="row">
 						<div class="col">
-							<div class="owl-carousel custom-carousel-backward-shape custom-dots-style-1 custom-dots-style-1-light"
-								data-plugin-options="{'responsive': {'0': {'items': 1, 'stagePadding': 100}, '479': {'items': 1, 'stagePadding': 100}, '768': {'items': 3, 'stagePadding': 100}, '992': {'items': 3, 'stagePadding': 100}, '1200': {'items': 4}}, 'autoplay': true, 'autoplayTimeout': 5000, 'autoplayHoverPause': true, 'dots': true, 'nav': false, 'center': true, 'loop': true, 'margin': 25}">
+							<div class="owl-carousel custom-carousel-backward-shape custom-dots-style-1 custom-dots-style-1-light" data-plugin-options="{'responsive': {'0': {'items': 1, 'stagePadding': 100}, '479': {'items': 1, 'stagePadding': 100}, '768': {'items': 3, 'stagePadding': 100}, '992': {'items': 3, 'stagePadding': 100}, '1200': {'items': 4}}, 'autoplay': true, 'autoplayTimeout': 5000, 'autoplayHoverPause': true, 'dots': true, 'nav': false, 'center': true, 'loop': true, 'margin': 25}">
 								<div class="my-5">
 									<a href="#">
-										<div
-											class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-hover-1 box-shadow-4 rounded-0 my-3">
+										<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-hover-1 box-shadow-4 rounded-0 my-3">
 											<div class="thumb-info-wrapper rounded-0">
-												<img src="imgAcceuil/demos/startup-agency/works/work-1.jpg"
-													class="img-fluid rounded-0" alt="Work 1" />
+												<img src="imgAcceuil/demos/startup-agency/works/work-1.jpg" class="img-fluid rounded-0" alt="Work 1" />
 											</div>
 										</div>
 									</a>
 								</div>
 								<div class="my-5">
 									<a href="#">
-										<div
-											class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-hover-1 box-shadow-4 rounded-0 my-3">
+										<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-hover-1 box-shadow-4 rounded-0 my-3">
 											<div class="thumb-info-wrapper rounded-0">
-												<img src="imgAcceuil/demos/startup-agency/works/work-2.jpg"
-													class="img-fluid rounded-0" alt="Work 2" />
+												<img src="imgAcceuil/demos/startup-agency/works/work-2.jpg" class="img-fluid rounded-0" alt="Work 2" />
 											</div>
 										</div>
 									</a>
 								</div>
 								<div class="my-5">
 									<a href="#">
-										<div
-											class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-hover-1 box-shadow-4 rounded-0 my-3">
+										<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-hover-1 box-shadow-4 rounded-0 my-3">
 											<div class="thumb-info-wrapper rounded-0">
-												<img src="imgAcceuil/demos/startup-agency/works/work-3.jpg"
-													class="img-fluid rounded-0" alt="Work 3" />
+												<img src="imgAcceuil/demos/startup-agency/works/work-3.jpg" class="img-fluid rounded-0" alt="Work 3" />
 											</div>
 										</div>
 									</a>
 								</div>
 								<div class="my-5">
 									<a href="#">
-										<div
-											class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-hover-1 box-shadow-4 rounded-0 my-3">
+										<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-hover-1 box-shadow-4 rounded-0 my-3">
 											<div class="thumb-info-wrapper rounded-0">
-												<img src="imgAcceuil/demos/startup-agency/works/work-4.jpg"
-													class="img-fluid rounded-0" alt="Work 4" />
+												<img src="imgAcceuil/demos/startup-agency/works/work-4.jpg" class="img-fluid rounded-0" alt="Work 4" />
 											</div>
 										</div>
 									</a>
 								</div>
 								<div class="my-5">
 									<a href="#">
-										<div
-											class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-hover-1 box-shadow-4 rounded-0 my-3">
+										<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-hover-1 box-shadow-4 rounded-0 my-3">
 											<div class="thumb-info-wrapper rounded-0">
-												<img src="imgAcceuil/demos/startup-agency/works/work-5.jpg"
-													class="img-fluid rounded-0" alt="Work 5" />
+												<img src="imgAcceuil/demos/startup-agency/works/work-5.jpg" class="img-fluid rounded-0" alt="Work 5" />
 											</div>
 										</div>
 									</a>
@@ -673,56 +545,44 @@
 					</div>
 				</div>
 				<div class="shape-divider shape-divider-bottom" style="height: 109px;">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-						x="0px" y="0px" viewBox="0 0 2000 109" preserveAspectRatio="xMinYMin">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2000 109" preserveAspectRatio="xMinYMin">
 						<path fill="#FFFFFF" d="M-29,0c16.91,7.69,40.41,17.74,69,28c24.89,8.93,114.79,39.95,247,52c89.7,8.18,157.69,3.87,215,0
 								c81.39-5.5,81.96-11.49,233-29c82.16-9.52,140.49-16.18,220-20c40.62-1.95,100.38-4.7,178-2c45.11,1.57,62.48,3.8,212,18
 								c122.78,11.66,184.77,17.53,214,19c80.47,4.06,142.71,3.13,219,2c68.63-1.02,116.48,0.48,182-6c32.74-3.24,59.69-7.11,78-10
 								c0,24.39,0,48.78,0,73.17c-691.67,0-1383.33,0-2075,0C-34.33,83.45-31.67,41.72-29,0z" />
 					</svg>
 				</div>
-			</section>
+			</section-->
 
-			<div class="container mt-4 mb-5">
+			<!--div class="container mt-4 mb-5">
 				<div id="pricing" class="row justify-content-center">
 					<div class="col-lg-10 text-center">
-						<span
-							class="text-color-grey positive-ls-2 font-weight-medium custom-font-size-2 d-block appear-animation"
-							data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">OUR PRICES</span>
-						<h2 class="font-weight-bold text-10 mb-4 appear-animation"
-							data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Best Price
+						<span class="text-color-grey positive-ls-2 font-weight-medium custom-font-size-2 d-block appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">OUR PRICES</span>
+						<h2 class="font-weight-bold text-10 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Best Price
 							Guarantee</h2>
-						<p class="custom-font-size-2 font-weight-light mb-4 pb-3 appear-animation"
-							data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Vestibulum auctor
+						<p class="custom-font-size-2 font-weight-light mb-4 pb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Vestibulum auctor
 							felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero
 							luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus vitae dui.</p>
 					</div>
 				</div>
 				<div class="custom-svg-wrapper-3">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-						x="0px" y="0px" viewBox="0 0 1677 357" data-plugin-float-element-svg="true">
-						<g data-plugin-float-element
-							data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1677 357" data-plugin-float-element-svg="true">
+						<g data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 							<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="36" cy="317" r="17" />
 							<circle fill="#FFFFFF" cx="35.69" cy="317.31" r="15.43" />
 						</g>
-						<g data-plugin-float-element
-							data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+						<g data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 							<circle fill="#DFDFDB" cx="103.5" cy="224.5" r="9.5" />
 						</g>
-						<g data-plugin-float-element
-							data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+						<g data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 							<circle class="custom-svg-fill-color-secondary" fill="#5349FF" cx="1561" cy="31" r="6" />
 						</g>
-						<g data-plugin-float-element
-							data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-							<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="1628" cy="145.5"
-								r="25" />
+						<g data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+							<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="1628" cy="145.5" r="25" />
 							<circle fill="#FFFFFF" cx="1628.46" cy="145.96" r="22.69" />
 						</g>
 					</svg>
-					<div class="pricing-table pricing-table-no-gap custom-pricing-table-style-1 mb-4 appear-animation"
-						data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">
+					<div class="pricing-table pricing-table-no-gap custom-pricing-table-style-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">
 						<div class="col-md-6 col-lg-3">
 							<div class="plan">
 								<div class="plan-header">
@@ -825,17 +685,14 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div-->
 
-			<section id="blog" class="section section-with-shape-divider custom-bg-color-1 border-0 m-0">
+			<!--section id="blog" class="section section-with-shape-divider custom-bg-color-1 border-0 m-0">
 				<div class="shape-divider shape-divider-reverse-y" style="height: 385px;">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-						x="0px" y="0px" viewBox="0 0 2000 385" preserveAspectRatio="xMinYMin">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2000 385" preserveAspectRatio="xMinYMin">
 						<circle fill="#9DA3F6" cx="57" cy="181" r="161" />
-						<circle class="custom-svg-fill-color-secondary" fill="#5349FF" opacity="0.3" cx="75.5"
-							cy="158.5" r="169.5" />
-						<path fill="#FFFFFF" opacity="0.5"
-							d="M-35,226c17.66,1.2,43.63,2.44,75,2c83.48-1.18,144.86-13.49,188-22c224.54-44.3,165.12-27.27,310-59
+						<circle class="custom-svg-fill-color-secondary" fill="#5349FF" opacity="0.3" cx="75.5" cy="158.5" r="169.5" />
+						<path fill="#FFFFFF" opacity="0.5" d="M-35,226c17.66,1.2,43.63,2.44,75,2c83.48-1.18,144.86-13.49,188-22c224.54-44.3,165.12-27.27,310-59
 								c133.16-29.16,128.14-31.45,223-52c206.26-44.68,317.22-68.72,460-68c97.61,0.49,73.58,11.86,293,25c164.22,9.83,250.54,7.83,279,7
 								c102.76-2.99,187.96-12.01,248-20c0-24.69,0-49.37,0-74.06c-694.67,0-1389.33,0-2084,0C-40.33,51.96-37.67,138.98-35,226z" />
 						<path fill="#FFFFFF" d="M-37,185c17.21,1.44,42.06,3.17,72,4c81.96,2.26,170.2-3.07,325-30c54.07-9.4,98.99-18.41,221-45
@@ -847,105 +704,84 @@
 				<div class="container position-relative z-index-3 pt-2 pt-md-5 pb-1 pb-md-5 mt-5 mb-5 mb-lg-0 mb-xl-5">
 					<div class="row pb-2 mt-5 mb-5">
 						<div class="col text-center">
-							<span
-								class="text-color-grey positive-ls-2 font-weight-medium custom-font-size-2 d-block appear-animation"
-								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">OUR
+							<span class="text-color-grey positive-ls-2 font-weight-medium custom-font-size-2 d-block appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">OUR
 								BLOG</span>
-							<h2 class="font-weight-bold text-10 mb-4 appear-animation"
-								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">What Is
+							<h2 class="font-weight-bold text-10 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">What Is
 								Happening</h2>
 						</div>
 					</div>
 					<div class="row mb-5">
-						<div class="col appear-animation" data-appear-animation="fadeInUpShorter"
-							data-appear-animation-delay="600">
-							<div class="owl-carousel custom-dots-style-1"
-								data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 2}, '768': {'items': 1}, '992': {'items': 3}, '1200': {'items': 3}}, 'autoplay': false, 'autoplayTimeout': 5000, 'autoplayHoverPause': true, 'dots': true, 'nav': false, 'loop': true, 'margin': 60}">
+						<div class="col appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
+							<div class="owl-carousel custom-dots-style-1" data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 2}, '768': {'items': 1}, '992': {'items': 3}, '1200': {'items': 3}}, 'autoplay': false, 'autoplayTimeout': 5000, 'autoplayHoverPause': true, 'dots': true, 'nav': false, 'loop': true, 'margin': 60}">
 								<div>
 									<article class="mb-5">
 										<div class="d-flex justify-content-center line-height-1 text-1 pb-1 mb-2">
-											<a href="#"
-												class="text-color-default text-color-hover-primary text-decoration-none">10
+											<a href="#" class="text-color-default text-color-hover-primary text-decoration-none">10
 												JAN 2020</a>
-											<a href="#"
-												class="text-color-default text-color-hover-primary text-decoration-none custom-divider-1">3
+											<a href="#" class="text-color-default text-color-hover-primary text-decoration-none custom-divider-1">3
 												COMMENTS</a>
 											<span class="text-color-default">JOHN DOE</span>
 										</div>
-										<h4 class="font-weight-bold text-6 text-center"><a href="#"
-												class="text-color-dark text-color-hover-primary text-decoration-none">Lorem
+										<h4 class="font-weight-bold text-6 text-center"><a href="#" class="text-color-dark text-color-hover-primary text-decoration-none">Lorem
 												ipsum dolor sit amet</a></h4>
 										<p class="custom-font-secondary text-center text-4 mb-3">Lorem ipsum dolor sit
 											amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed
 											porta est consectetur...</p>
-										<a href="#"
-											class="d-block font-weight-semibold text-color-secondary text-color-hover-primary text-decoration-none text-center">READ
+										<a href="#" class="d-block font-weight-semibold text-color-secondary text-color-hover-primary text-decoration-none text-center">READ
 											MORE +</a>
 									</article>
 								</div>
 								<div>
 									<article class="mb-5">
 										<div class="d-flex justify-content-center line-height-1 text-1 pb-1 mb-2">
-											<a href="#"
-												class="text-color-default text-color-hover-primary text-decoration-none">10
+											<a href="#" class="text-color-default text-color-hover-primary text-decoration-none">10
 												JAN 2020</a>
-											<a href="#"
-												class="text-color-default text-color-hover-primary text-decoration-none custom-divider-1">3
+											<a href="#" class="text-color-default text-color-hover-primary text-decoration-none custom-divider-1">3
 												COMMENTS</a>
 											<span class="text-color-default">JOHN DOE</span>
 										</div>
-										<h4 class="font-weight-bold text-6 text-center"><a href="#"
-												class="text-color-dark text-color-hover-primary text-decoration-none">Lorem
+										<h4 class="font-weight-bold text-6 text-center"><a href="#" class="text-color-dark text-color-hover-primary text-decoration-none">Lorem
 												ipsum dolor sit amet</a></h4>
 										<p class="custom-font-secondary text-center text-4 mb-3">Lorem ipsum dolor sit
 											amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed
 											porta est consectetur...</p>
-										<a href="#"
-											class="d-block font-weight-semibold text-color-secondary text-color-hover-primary text-decoration-none text-center">READ
+										<a href="#" class="d-block font-weight-semibold text-color-secondary text-color-hover-primary text-decoration-none text-center">READ
 											MORE +</a>
 									</article>
 								</div>
 								<div>
 									<article class="mb-5">
 										<div class="d-flex justify-content-center line-height-1 text-1 pb-1 mb-2">
-											<a href="#"
-												class="text-color-default text-color-hover-primary text-decoration-none">10
+											<a href="#" class="text-color-default text-color-hover-primary text-decoration-none">10
 												JAN 2020</a>
-											<a href="#"
-												class="text-color-default text-color-hover-primary text-decoration-none custom-divider-1">3
+											<a href="#" class="text-color-default text-color-hover-primary text-decoration-none custom-divider-1">3
 												COMMENTS</a>
 											<span class="text-color-default">JOHN DOE</span>
 										</div>
-										<h4 class="font-weight-bold text-6 text-center"><a href="#"
-												class="text-color-dark text-color-hover-primary text-decoration-none">Lorem
+										<h4 class="font-weight-bold text-6 text-center"><a href="#" class="text-color-dark text-color-hover-primary text-decoration-none">Lorem
 												ipsum dolor sit amet</a></h4>
 										<p class="custom-font-secondary text-center text-4 mb-3">Lorem ipsum dolor sit
 											amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed
 											porta est consectetur...</p>
-										<a href="#"
-											class="d-block font-weight-semibold text-color-secondary text-color-hover-primary text-decoration-none text-center">READ
+										<a href="#" class="d-block font-weight-semibold text-color-secondary text-color-hover-primary text-decoration-none text-center">READ
 											MORE +</a>
 									</article>
 								</div>
 								<div>
 									<article class="mb-5">
 										<div class="d-flex justify-content-center line-height-1 text-1 pb-1 mb-2">
-											<a href="#"
-												class="text-color-default text-color-hover-primary text-decoration-none">10
+											<a href="#" class="text-color-default text-color-hover-primary text-decoration-none">10
 												JAN 2020</a>
-											<a href="#"
-												class="text-color-default text-color-hover-primary text-decoration-none custom-divider-1">3
+											<a href="#" class="text-color-default text-color-hover-primary text-decoration-none custom-divider-1">3
 												COMMENTS</a>
 											<span class="text-color-default">JOHN DOE</span>
 										</div>
-										<h4 class="font-weight-bold text-6 text-center"><a href="#"
-												class="text-color-dark text-color-hover-primary text-decoration-none">Lorem
+										<h4 class="font-weight-bold text-6 text-center"><a href="#" class="text-color-dark text-color-hover-primary text-decoration-none">Lorem
 												ipsum dolor sit amet</a></h4>
 										<p class="custom-font-secondary text-center text-4 mb-3">Lorem ipsum dolor sit
 											amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed
 											porta est consectetur...</p>
-										<a href="#"
-											class="d-block font-weight-semibold text-color-secondary text-color-hover-primary text-decoration-none text-center">READ
+										<a href="#" class="d-block font-weight-semibold text-color-secondary text-color-hover-primary text-decoration-none text-center">READ
 											MORE +</a>
 									</article>
 								</div>
@@ -953,85 +789,67 @@
 						</div>
 					</div>
 				</div>
-				<div class="shape-divider shape-divider-bottom shape-divider-reverse-y z-index-0"
-					style="height: 260px;">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-						x="0px" y="0px" viewBox="0 0 2000 260" preserveAspectRatio="xMinYMin">
+				<div class="shape-divider shape-divider-bottom shape-divider-reverse-y z-index-0" style="height: 260px;">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2000 260" preserveAspectRatio="xMinYMin">
 						<path fill="#FFFFFF" d="M-42,42c21.03-0.71,49.03-1.3,82-1c10.06,0.09,73,0.78,147,7c95.4,8.01,191.25,23.7,278,40
 								c188.62,35.43,247.14,57.2,353,79c102.08,21.02,252.74,44.36,445,46c0,22.68,0,45.35,0,68.03c-433.33,0-866.67,0-1300,0
 								C-38.67,201.35-40.33,121.68-42,42z" />
-						<path fill="#222529"
-							d="M-39,233c18.45-5.57,45.76-13.68,79-23c65.89-18.48,100.28-28.12,140-36c64.67-12.83,115.09-15.35,151-17
+						<path fill="#222529" d="M-39,233c18.45-5.57,45.76-13.68,79-23c65.89-18.48,100.28-28.12,140-36c64.67-12.83,115.09-15.35,151-17
 								c72.37-3.33,126.81,0.97,200,7c21.78,1.79,35.05,3.15,147,16c185.79,21.33,205.66,24.08,252,27c85.5,5.38,150.46,4.35,168,4
 								c48.7-0.96,73.47-3.33,246-19c174.43-15.84,185.89-16.75,211-18c76.46-3.81,133.48-3.48,217-3c83.26,0.48,125.58,2.59,166,6
 								c37.33,3.15,68.3,7,90,10c0,28.67,0,57.35,0,86.02c-688.33,0-1376.67,0-2065,0C-37.67,259.68-38.33,246.34-39,233z" />
 					</svg>
 				</div>
-			</section>
+			</section-->
 
 		</div>
 
 		<footer id="footer" class="border-0 bg-dark pt-4 mt-0" data-spy-offset="15">
 			<div class="custom-svg-wrapper-4 pb-5">
-				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-					y="0px" viewBox="0 0 1667 581" data-plugin-float-element-svg="true">
-					<g data-plugin-float-element
-						data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1667 581" data-plugin-float-element-svg="true">
+					<g data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 						<circle class="custom-svg-fill-color-secondary" fill="#4F4BFC" cx="39" cy="315" r="17" />
 						<circle fill="#222529" cx="38.69" cy="315.31" r="15.43" />
 					</g>
-					<g data-plugin-float-element
-						data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+					<g data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 						<circle class="custom-svg-fill-color-secondary" fill="#5349FF" cx="257" cy="545" r="4" />
 					</g>
-					<g data-plugin-float-element
-						data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+					<g data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 						<circle fill="#333539" cx="501.5" cy="304.5" r="10.5" />
 					</g>
-					<g data-plugin-float-element
-						data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+					<g data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 						<circle class="custom-svg-fill-color-secondary" fill="#5349FF" cx="738" cy="36" r="6" />
 					</g>
-					<g data-plugin-float-element
-						data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+					<g data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
 						<circle class="custom-svg-fill-color-secondary" fill="#5349FF" cx="1630" cy="368" r="6" />
 					</g>
 				</svg>
 				<div class="container mt-5 mt-lg-0">
 					<div class="row">
 						<div class="col-lg-6 text-center pb-3 pb-lg-0 mb-5 mb-lg-0">
-							<span
-								class="d-block text-color-grey positive-ls-2 font-weight-normal custom-font-size-2 text-color-light opacity-6 mb-1">GET
-								IN TOUCH</span>
+							<span class="d-block text-color-grey positive-ls-2 font-weight-normal custom-font-size-2 text-color-light opacity-6 mb-1"></span>
 							<h2 class="font-weight-bold text-color-light text-10 mb-5">Contacter Nous</h2>
 							<div class="row">
 								<div class="col-lg-6">
 
 									<div class="row pb-5 mb-5">
 										<div class="col">
-											<div data-plugin-float-element
-												data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-												<img class="icon-animated" width="55"
-													src="imgAcceuil/demos/startup-agency/icons/icon-location.svg" alt=""
-													data-icon
-													data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mb-3'}" />
+											<div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+												<img class="icon-animated" width="55" src="imgAcceuil/demos/startup-agency/icons/icon-location.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mb-3'}" />
 												<h4 class="font-weight-bold text-color-light text-5 mb-0">Adresse</h4>
 												<p class="text-4 text-color-light opacity-5 font-weight-light mb-0">
-										</p>
+													
+												</p>
 											</div>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col">
-											<div data-plugin-float-element
-												data-plugin-options="{'startPos': 'bottom', 'speed': 0.1, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-												<img class="icon-animated" width="55"
-													src="imgAcceuil/demos/startup-agency/icons/icon-mail.svg" alt="" data-icon
-													data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-secondary mb-3'}" />
+											<div data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.1, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+												<img class="icon-animated" width="55" src="imgAcceuil/demos/startup-agency/icons/icon-mail.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mb-3'}" />
 												<h4 class="font-weight-bold text-color-light text-5 mb-0">Adresse Email
 												</h4>
-												<a href="mailto:email@domain.com"
-													class="text-4 text-color-light text-color-hover-primary opacity-5 font-weight-light mb-0">ikalafia@gmail.com</a>
+												<a href="mailto:email@domain.com" class="text-4 text-color-light text-color-hover-primary opacity-5 font-weight-light mb-0">ikalafia@gmail.com</a>
 											</div>
 										</div>
 									</div>
@@ -1041,29 +859,21 @@
 
 									<div class="row pb-5 mb-5">
 										<div class="col">
-											<div data-plugin-float-element
-												data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-												<img class="icon-animated" width="55"
-													src="imgAcceuil/demos/startup-agency/icons/icon-phone.svg" alt="" data-icon
-													data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-secondary mb-3'}" />
+											<div data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+												<img class="icon-animated" width="55" src="imgAcceuil/demos/startup-agency/icons/icon-phone.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mb-3'}" />
 												<h4 class="font-weight-bold text-color-light text-5 mb-0">Numéro de téléphone
 												</h4>
-												<a href="tel:+1234567890"
-													class="text-4 text-color-light text-color-hover-primary opacity-5 font-weight-light mb-0">(+223)
+												<a href="tel:+1234567890" class="text-4 text-color-light text-color-hover-primary opacity-5 font-weight-light mb-0">(+223)
 													79456278</a>
 											</div>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col">
-											<div data-plugin-float-element
-												data-plugin-options="{'startPos': 'bottom', 'speed': 0.1, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
-												<img class="icon-animated" width="55"
-													src="imgAcceuil/demos/startup-agency/icons/icon-calendar.svg" alt=""
-													data-icon
-													data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mb-3'}" />
-												<h4 class="font-weight-bold text-color-light text-5 mb-0">Working
-													Jours/Heures</h4>
+											<div data-plugin-float-element data-plugin-options="{'startPos': 'bottom', 'speed': 0.1, 'isInsideSVG': true, 'transition': true, 'transitionDuration': 2000}">
+												<img class="icon-animated" width="55" src="imgAcceuil/demos/startup-agency/icons/icon-calendar.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mb-3'}" />
+												<h4 class="font-weight-bold text-color-light text-5 mb-0">
+													Jours/Heures d'ouverture</h4>
 												<p class="text-4 text-color-light opacity-5 font-weight-light mb-0">Lundi
 													- Vendredi / 8h:00 - 16h:00</p>
 											</div>
@@ -1074,14 +884,12 @@
 							</div>
 						</div>
 						<div class="col-lg-6 ps-lg-5">
-							<span
-								class="d-block text-color-grey positive-ls-2 font-weight-normal custom-font-size-2 text-color-light opacity-6 text-center mb-1">CONTACTER NOUS</span>
+							<span class="d-block text-color-grey positive-ls-2 font-weight-normal custom-font-size-2 text-color-light opacity-6 text-center mb-1">CONTACTER NOUS</span>
 							<h2 class="font-weight-bold text-10 text-center pb-3 mb-4">Envoyer votre message</h2>
 							<div class="row">
 								<div class="col">
 
-									<form class="contact-form custom-form-style-1 form-errors-light"
-										action="php/contact-form.php" method="POST">
+									<form class="contact-form custom-form-style-1 form-errors-light" action="php/contact-form.php" method="POST">
 										<div class="contact-form-success alert alert-success d-none mt-4">
 											<strong>Success!</strong> Your message has been sent to us.
 										</div>
@@ -1093,33 +901,22 @@
 
 										<div class="row">
 											<div class="form-group col">
-												<input type="text" value="" data-msg-required="Please enter your name."
-													maxlength="100" class="form-control" name="name"
-													placeholder="Your Name" required>
+												<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" placeholder="Votre nom" required>
 											</div>
 										</div>
 										<div class="row">
 											<div class="form-group col">
-												<input type="email" value=""
-													data-msg-required="Please enter your email address."
-													data-msg-email="Please enter a valid email address." maxlength="100"
-													class="form-control" name="email" placeholder="Email Address"
-													required>
+												<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" placeholder=" Votre Email Addresse" required>
 											</div>
 										</div>
 										<div class="row">
 											<div class="form-group col">
-												<textarea maxlength="5000"
-													data-msg-required="Please enter your message." rows="6"
-													class="form-control" name="message" placeholder="Your Message"
-													required></textarea>
+												<textarea maxlength="5000" data-msg-required="Please enter your message." rows="6" class="form-control" name="message" placeholder="Votre Message" required></textarea>
 											</div>
 										</div>
 										<div class="row">
 											<div class="form-group col text-center">
-												<input type="submit" value="Send Message"
-													class="btn btn-gradient text-3 font-weight-bold px-5 py-3"
-													data-loading-text="Loading...">
+												<input type="submit" value="Envoyer " class="btn btn-gradient text-3 font-weight-bold px-5 py-3" data-loading-text="Loading...">
 											</div>
 										</div>
 									</form>
@@ -1134,7 +931,7 @@
 				<div class="container footer-top-light-border pt-4">
 					<div class="row">
 						<div class="col">
-							<p class="text-center text-color-light opacity-5">Ikalafia © 2022. All Rights Reserved.</p>
+							<p class="text-center text-color-light opacity-5">Ikalafia © 2022. Tout Droit Réservé.</p>
 						</div>
 					</div>
 				</div>
@@ -1173,7 +970,7 @@
 	<script src="jsAcceuil/custom.js"></script>
 
 	<!-- Theme Initialization Files -->
-	<script src="jsAcceuil/theme.init.js"></script>	
+	<script src="jsAcceuil/theme.init.js"></script>
 	<script src="jsAcceuil/scripthorlo.js"></script>
 
 

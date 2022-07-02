@@ -58,7 +58,7 @@
                     </div>
 
 
-                    <input type="submit" class="btn" value="Sign up" />
+                    <input type="submit" class="btn" value="S'inscrire" />
                     <p class="social-text">Se connecter avec une platforme social</p>
                     <div class="social-media">
                         <a href="#" class="social-icon">
